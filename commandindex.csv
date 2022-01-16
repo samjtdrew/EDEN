@@ -1,2 +1,4 @@
-Check Command,Action Type,Command To Run
-QUIT,execute,quit()
+Check Command,Action Type,Command To Run,Part 2,Part 3
+QUIT,execute,quit(),Pass,Pass
+COMMAND LINE,execute,"print(""Command Line Inactive"")",Pass,Pass
+REBOOT,execute,"os.system(""python APPLOADER.py"")",quit(),Pass
