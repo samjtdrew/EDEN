@@ -3,3 +3,4 @@ QUIT,execute,quit(),Pass,Pass
 COMMAND LINE,print,Command Line Inactive,Pass,Pass
 REBOOT,execute,"os.system(""python APPLOADER.py"")",quit(),Pass
 HELLO,say,Hello! How are you today?,Pass,Pass
+ECHO,say,execute,Pass,Pass
