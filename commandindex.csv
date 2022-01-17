@@ -1,6 +1,6 @@
 Check Command,Action Type,Command To Run,Part 2,Part 3
-QUIT,execute,quit(),Pass,Pass
-COMMAND LINE,print,Command Line Inactive,Pass,Pass
-REBOOT,execute,"os.system(""python APPLOADER.py"")",quit(),Pass
-HELLO,say,Hello! How are you today?,Pass,Pass
-ECHO,say,execute,Pass,Pass
+QUIT,execute,quit(),,
+COMMAND LINE,print,Command Line Inactive,,
+REBOOT,execute,"os.system(""python APPLOADER.py"")",quit(),
+HELLO,say,Hello! How are you today?,,
+ECHO,execute,al.speak(execute),,
