@@ -1,4 +1,5 @@
 Check Command,Action Type,Command To Run,Part 2,Part 3
 QUIT,execute,quit(),Pass,Pass
-COMMAND LINE,execute,"print(""Command Line Inactive"")",Pass,Pass
+COMMAND LINE,print,Command Line Inactive,Pass,Pass
 REBOOT,execute,"os.system(""python APPLOADER.py"")",quit(),Pass
+HELLO,say,Hello! How are you today?,Pass,Pass
